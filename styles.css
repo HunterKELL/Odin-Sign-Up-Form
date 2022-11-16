@@ -11,15 +11,25 @@
 
 body {
     background-color: #699C93;
-    width: 100vw;
-    height: 100vh;
 }
 
-.form-image {
-
+.content {
+    width: 100vw;
+    height: 50vh;
+    display: flex; 
 }
 
 .form-container {
     display: grid;
+    align-items: center;
+}
 
+.form-information {
+    height: 480px;
+}
+
+.form {
+    height: 480px;
+    display: flex
+    
 }
