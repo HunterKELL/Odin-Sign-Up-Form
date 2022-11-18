@@ -1,6 +1,7 @@
 /* Global Variables */
 :root {
-   
+   --color1: grey;
+   --font1: 'Arial', sans-serif;
 }
 
 * {
@@ -10,26 +11,59 @@
 }
 
 body {
-    background-color: #699C93;
+    background-color: var(--color1);
+    font-family: var(--font1);
+    font-size: 20px;
 }
 
 .content {
-    width: 100vw;
-    height: 50vh;
-    display: flex; 
+    max-width: 2000px;
+    margin: 59px auto;
+    background-color: white;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image-container > .form-image {
+    /*position: relative;*/
+    height: 100%;
+}
+
+.credits {
+    color: white;
+    position: absolute;
+    top: 74%;
+    left: 15%
 }
 
 .form-container {
-    display: grid;
+    background-color: black;
+    color: white;
+    /*display: grid;*/
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
     align-items: center;
 }
 
 .form-information {
-    height: 480px;
+    text-align: center;
+    margin: 15px;
 }
 
 .form {
-    height: 480px;
-    display: flex
-    
+    /*text-align: center;*/
 }
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+/*label {
+    display: block;
+}*/
