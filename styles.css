@@ -27,10 +27,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.form-container{
-    
-}
-
 .image-container > .form-image {
     /*position: relative;*/
     height: 100%;
@@ -41,6 +37,10 @@ body {
     position: absolute;
     top: 74%;
     left: 15%
+}
+
+.form-container{
+    width: 100vh;
 }
 
 .form-container {
@@ -59,7 +59,9 @@ body {
 }
 
 .form {
+    width: 100%;
     margin: 2.5rem;
+    background-color: aqua;
 }
 
 form {
