@@ -36,6 +36,49 @@ body {
     top: 97%;
     left: 12%;
 }
+
+.credits > p {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.form-container {
+    height: 85vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.form-information {
+    background-color: aqua;
+    flex: 1;
+}
+
+.form-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form {
+    background-color: aqua;
+    width: 45%;
+    flex: 1;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 1.5rem;
+}
+
 /*label {
     display: block;
 }*/
