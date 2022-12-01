@@ -1,6 +1,8 @@
 /* Global Variables */
 :root {
    --color1: grey;
+   --color2: #050810;
+   --gradient1: linear-gradient(90deg, rgba(5,8,16,1) 44%, rgba(17,45,61,1) 100%)
    --font1: 'Arial', sans-serif;
 }
 
@@ -17,7 +19,7 @@ body {
 }
 
 .content {
-    max-width: 2000px;
+    max-width: 1950px;
     margin: 59px auto;
     background-color: white;
 }
@@ -44,7 +46,7 @@ body {
 }
 
 .form-container {
-    background-color: black;
+    background-color: var(--color2);
     color: white;
     /*display: grid;*/
     display: flex;
@@ -59,9 +61,8 @@ body {
 }
 
 .form {
-    width: 100%;
+    width: 55%;
     margin: 2.5rem;
-    background-color: aqua;
 }
 
 form {
