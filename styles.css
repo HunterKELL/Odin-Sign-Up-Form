@@ -47,16 +47,16 @@ a {
 
 .form-container {
     height: 85vh;
-    padding: 10px;
+    padding: 1px;
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 15px;
     flex-direction: column;
 }
 
 .form-information {
     background-color: aqua;
-    flex: 1;
+    flex: 0;
 }
 
 .form-information {
@@ -68,16 +68,38 @@ a {
 
 .form {
     background-color: aqua;
-    width: 45%;
-    flex: 1;
+    width: 100%;
+    flex: 0;
 }
 
 form {
     display: grid;
+    width: 35%;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin: 1.5rem;
 }
+
+.submit-button {
+   background-color: green; 
+   width: 10%;
+   border: none;
+   margin: 10px;
+   padding: 10px;
+}
+
+.account-made {
+   color: white;
+   margin-left: 10px; 
+}
+
+/*.submit-div {
+    background-color: aqua;
+    width: 100%;
+    flex: 1;
+}*/
+
+
 
 /*label {
     display: block;
