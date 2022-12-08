@@ -4,7 +4,7 @@
    --color2: #050810;
    --color3: #293D62;
    --color4: #80eef8;
-   --gradient1: linear-gradient(90deg, rgba(5,8,16,1) 44%, rgba(17,45,61,1) 100%)
+   --gradient1: linear-gradient(90deg, rgba(5,8,16,1) 44%, rgba(17,45,61,1) 100%);
    --font1: 'Arial', sans-serif;
    --font2: 'Arial', sans-serif;
 }
@@ -33,6 +33,32 @@ body {
 .form-image {
     height: 100vh;
 }
+
+.image {
+    position: relative;
+}
+
+.center-text {
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+}
+
+.title {
+    color: #ddd;
+    font-size: 65px;
+}
+
+/*.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: var(--font1);
+    font-size: 5rem;
+}*/
 
 .credits {
     position: absolute;
