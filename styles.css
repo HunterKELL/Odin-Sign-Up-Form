@@ -114,7 +114,9 @@ form {
 }
 
 .submit-button {
-   background-color: green; 
+   background-color: var(--color3);
+   color: #ddd;
+   cursor: pointer;
    width: 10%;
    border: none;
    font-size: 20px;
@@ -122,6 +124,12 @@ form {
    margin-left: 20px;
    padding: 10px;
    border-radius: 10px;
+   transition-duration: 0.5s;
+}
+
+.submit-button:hover {
+    background-color: #21a750;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .account-made {
