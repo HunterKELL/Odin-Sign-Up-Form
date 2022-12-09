@@ -18,16 +18,12 @@
 body {
     overflow: hidden;
     background-color: var(--color1);
-    /*width: 100%;
-    height: 100%;*/
 }
 
 .content {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*width: 100%;
-    height: 100%;*/
 }
 
 .form-image {
@@ -50,15 +46,6 @@ body {
     color: #ddd;
     font-size: 65px;
 }
-
-/*.title{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 3rem;
-    font-family: var(--font1);
-    font-size: 5rem;
-}*/
 
 .credits {
     position: absolute;
@@ -91,15 +78,9 @@ a {
 }
 
 .form-information {
-    /*background-color: aqua;*/
-    flex: 0;
-}
-
-.form-information {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 .form {
@@ -110,6 +91,7 @@ a {
 }
 
 .ready {
+    margin-top: 15px;
     margin-left: 20px;
     font-family: var(--font2);
     font-weight: 100;
@@ -163,15 +145,3 @@ form {
    font-size: 17px;
    margin-left: 20px; 
 }
-
-/*.submit-div {
-    background-color: aqua;
-    width: 100%;
-    flex: 1;
-}*/
-
-
-
-/*label {
-    display: block;
-}*/
