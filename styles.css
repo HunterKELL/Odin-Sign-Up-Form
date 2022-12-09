@@ -1,11 +1,10 @@
 /* Global Variables */
 :root {
    --color1: #62d1de;
-   --color2: #050810;
-   --color3: #293D62;
-   --color4: #80eef8;
+   --color2: #293D62;
+   --color3: #80eef8;
    --gradient1: linear-gradient(90deg, rgba(5,8,16,1) 44%, rgba(17,45,61,1) 100%);
-   --font1: 'Arial', sans-serif;
+   --font1: 'Open Sans', sans-serif;
    --font2: 'Arial', sans-serif;
 }
 
@@ -71,6 +70,7 @@ a {
 }
 
 .form-information > p {
+    font-family: var(--font1);
     font-size: 35px;
     margin: 2.5rem;
     padding: 1rem;
@@ -84,7 +84,7 @@ a {
 }
 
 .form {
-    background-color: var(--color4);
+    background-color: var(--color3);
     box-shadow:  0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 15px 0 rgba(0,0,0,0.19);;
     width: 100%;
     flex: 0;
@@ -122,7 +122,7 @@ form {
 }
 
 .submit-button {
-   background-color: var(--color3);
+   background-color: var(--color2);
    color: #ddd;
    cursor: pointer;
    width: 10%;
